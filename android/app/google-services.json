@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "211322307891",
+    "project_id": "doodle-chat-dbe18",
+    "storage_bucket": "doodle-chat-dbe18.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211322307891:android:9bf82d674f19390bb7aa46",
+        "android_client_info": {
+          "package_name": "com.myself.doodlechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211322307891-vqqv69g16v1hsujjg4a7704bd5utful2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myself.doodlechat",
+            "certificate_hash": "5d34296956a2473f8c4499f499109c2814f6171c"
+          }
+        },
+        {
+          "client_id": "211322307891-nnh3ftv592e3o1aqoltlquhmb4p87q6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiNXW1Uv74Q3rAnhlpi1TijCQO_l58owM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211322307891-nnh3ftv592e3o1aqoltlquhmb4p87q6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

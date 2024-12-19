@@ -1,0 +1,41 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"  // Flutter plugin comes after Android and Kotlin
+    id "com.google.gms.google-services"     // Google services plugin after Flutter
+}
+
+android {
+    namespace = "com.myself.doodlechat"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.myself.doodlechat"
+        
+        // Overriding the Flutter defaults to set specific SDK versions
+        minSdkVersion 23  // Set minimum SDK version to 23
+        targetSdkVersion 33  // Set target SDK version to 33
+        versionCode flutter.versionCode
+        versionName flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
